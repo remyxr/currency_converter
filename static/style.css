@@ -1,0 +1,58 @@
+body {
+    background-image: url('https://media.istockphoto.com/id/1412793168/photo/large-group-of-american-one-dollar-bill-background.webp?b=1&s=170667a&w=0&k=20&c=DPnIZvqYjT6IsWqjEpNHd_veMl-J0Rlf3K23UxVNGlU=');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+select,
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 12px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.result {
+    font-size: 124px;
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white;
+}
+
